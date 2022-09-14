@@ -8,7 +8,7 @@ const Faqs = () => {
     <div className='mid-container'>
       {faqs && faqs.map((faq)=> {
 
-        return <Faq faq={faq} />
+        return <Faq key={faq.id} faq={faq} />
       })}
     </div>
   )
