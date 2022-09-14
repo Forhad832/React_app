@@ -1,0 +1,18 @@
+input,textarea{
+    width: 70%;
+    padding: 16px 10px;
+   border-radius: 9px;
+   border: 2px solid #16213E;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.contact-form{
+    width: 100%;
+    padding: 0 3rem;
+}
+.contact {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center !important;
+}
